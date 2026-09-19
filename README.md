@@ -1,8 +1,18 @@
-# Mini Notes Application
+<div align="center">
+
+# 📝 Mini Notes Application
+
+A full-stack notes management application to create, view, edit, delete, search, and filter notes by category.
+
+</div>
+
+---
 
 ## Project Overview
 
 Mini Notes Application is a full-stack web application that allows users to manage personal notes with ease. Users can create, view, edit, delete, search, and filter notes by category. The project is built using Next.js with the App Router, TypeScript, and PostgreSQL, and demonstrates a complete CRUD workflow using REST API principles.
+
+---
 
 ## Features
 
@@ -17,21 +27,22 @@ Mini Notes Application is a full-stack web application that allows users to mana
 - Responsive UI
 - Form validation
 
+---
+
 ## Tech Stack
 
-**Frontend**
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
+<div align="center">
 
-**Backend**
-- Node.js
-- Next.js API Route Handlers (REST API)
+| Frontend | Backend | Database |
+|----------|---------|----------|
+| Next.js | Node.js | PostgreSQL |
+| React | Next.js API Route Handlers (REST API) | pg (node-postgres) |
+| TypeScript | | |
+| Tailwind CSS | | |
 
-**Database**
-- PostgreSQL
-- pg (node-postgres)
+</div>
+
+---
 
 ## Application Flow
 
@@ -42,7 +53,11 @@ Mini Notes Application is a full-stack web application that allows users to mana
 5. The user can delete a note, which removes it from the database.
 6. All data operations are handled through REST API endpoints connected to a PostgreSQL database.
 
+---
+
 ## API Endpoints
+
+<div align="center">
 
 | Method | Endpoint          | Description        |
 |--------|-------------------|---------------------|
@@ -51,11 +66,17 @@ Mini Notes Application is a full-stack web application that allows users to mana
 | PUT    | /api/notes        | Update a note       |
 | DELETE | /api/notes?id=1   | Delete a note       |
 
+</div>
+
+---
+
 ## Database Structure
 
 **Database name:** `mini_notes`
 
 **Table:** `notes`
+
+<div align="center">
 
 | Column      | Description                     |
 |-------------|----------------------------------|
@@ -64,6 +85,10 @@ Mini Notes Application is a full-stack web application that allows users to mana
 | content     | Main content/body of the note    |
 | category    | Category assigned to the note    |
 | created_at  | Timestamp when the note was created |
+
+</div>
+
+---
 
 ## Project Structure
 
@@ -84,6 +109,8 @@ mini-notes/
 └── README.md
 ```
 
+---
+
 ## Prerequisites
 
 Before running this project, ensure you have the following installed:
@@ -91,6 +118,8 @@ Before running this project, ensure you have the following installed:
 - Node.js (v18 or later recommended)
 - PostgreSQL (installed and running locally or accessible remotely)
 - npm or yarn package manager
+
+---
 
 ## Installation and Setup
 
@@ -114,6 +143,8 @@ npm install
 
 4. Create a PostgreSQL database named `mini_notes` and set up the `notes` table with the required columns as described in the Database Structure section.
 
+---
+
 ## Environment Variables
 
 Create a `.env.local` file in the root directory and add the following variable:
@@ -123,6 +154,8 @@ DATABASE_URL=your_database_connection_string
 ```
 
 **Note:** The `.env.local` file contains sensitive configuration and should not be committed to GitHub. Make sure it is included in your `.gitignore` file.
+
+---
 
 ## Running the Application
 
@@ -138,21 +171,26 @@ The application will be available at:
 http://localhost:3000
 ```
 
+---
+
 ## Screenshots
 
-_Add screenshots of the application below._
+### Home Screen
+![Home Screen](Screenshots/Home.png.png)
 
-**Home Page / Notes List**
-`[Add screenshot here]`
+### Add Note
+![Add Note](Screenshots/Add%20note.png.png)
 
-**Create Note Form**
-`[Add screenshot here]`
+### Edit Note
+![Edit Note](Screenshots/Edit%20note.png.png)
 
-**Edit Note**
-`[Add screenshot here]`
+### Delete Note
+![Delete Note](Screenshots/Delete%20Note%20.png.png)
 
-**Search and Filter**
-`[Add screenshot here]`
+### Search and Filter
+![Search and Filter](Screenshots/Search%20Filter.png.png)
+
+---
 
 ## Future Enhancements
 
@@ -162,8 +200,15 @@ _Add screenshots of the application below._
 - Dark mode support
 - Note tagging in addition to categories
 
+---
+
+<div align="center">
+
 ## Author
 
 **S Dhivyalakshmi**
 Software Developer
 
+[GitHub](https://github.com/your-username) • [LinkedIn](https://linkedin.com/in/your-username) • your-email@example.com
+
+</div>
