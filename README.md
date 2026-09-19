@@ -164,9 +164,6 @@ _Add screenshots of the application below._
 
 ## Author
 
-**Your Name**
+**S Dhivyalakshmi**
 Software Developer
 
-- GitHub: [your-github-profile-link]
-- LinkedIn: [your-linkedin-profile-link]
-- Email: your-email@example.com
